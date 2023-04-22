@@ -1,0 +1,2 @@
+PORTA_API=3000
+URL_BD=mongodb+srv://imlucasleandro:ifms@disciplinas.lnfjnai.mongodb.net/?retryWrites=true&w=majority
