@@ -27,5 +27,5 @@ api.get('/status', (req, res) => {
 
 const disciplinasController = require('./controllers/disciplinas.js');
 api.get('/disciplinas', disciplinasController.listarDisciplinas);
-api.post('/disciplinas', disciplinasController.adicionarDisciplina);
+api.post('/disciplinas', disciplinasController.adicionarDisciplinas);
 api.delete('/disciplinas', disciplinasController.removerDisciplinas);
